@@ -1,0 +1,35 @@
+.tab-content {
+    display: flex;
+    padding: 10px;
+}
+.tab-list {
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+  }
+  
+  .tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .tab-list-active {
+    background-color: rgb(248, 248, 248);
+    border: solid #3ead94;
+    border-width: 0 0 4px 0;
+  }
+  
+  .count {
+      display: flex;
+      justify-content: center;
+      width: 20px;
+      height: 25px;
+      background-color: #3ead94;
+      border-radius: 2px;
+      margin-left: 5px;
+  }
+
+  .tab-content-wrapper {
+      display: flex;
+  }
